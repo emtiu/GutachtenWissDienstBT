@@ -9,7 +9,34 @@ Die eingescannten Totholz-Informationen wurden innerhalb weniger Stunden von fle
 ## Format
 ### Referenz
 Jedem Dokument ist eine eindeutige Referenz zugeordnet. Sie setzt sich zusammen aus der Abteilung des Wissenschaftlichen Dienstes, einer für das Kalenderjahr laufenden Nummer und einer zweistelligen Angabe des Kalenderjahrs.
-#### Beispiel: Referenz WD8-063/08
+#### Beispielreferenz: WD8-063/08
 WD8|063|08|
 ---|---|---
 Abteilung 8|Gutachten 63 | im Jahr 2008
+Dabei gibt es folgende Abteilungen ([Quelle: Wikipedia](https://de.wikipedia.org/wiki/Wissenschaftliche_Dienste_des_Deutschen_Bundestages#Gliederung)):
+
+Abteilung|Fachgebiet
+---:|---
+1|Geschichte, Zeitgeschichte und Politik
+2|Auswärtiges, Völkerrecht, wirtschaftliche Zusammenarbeit und Entwicklung, Verteidigung, Menschenrechte und Humanitäre Hilfe
+3|Verfassung und Verwaltung
+4|Haushalt und Finanzen
+5|Wirtschaft und Technologie, Ernährung, Landwirtschaft und Verbraucherschutz, Tourismus
+6|Arbeit und Soziales
+7|Zivil-, Straf- und Verfahrensrecht, Umweltschutzrecht, Verkehr, Bau und Stadtentwicklung
+8|Umwelt, Naturschutz, Reaktorsicherheit, Bildung und Forschung
+9|Gesundheit, Familie, Senioren, Frauen und Jugend
+10|Kultur, Medien und Sport
+11|Europa
+#### Besonderheiten
+Bis 2005 haben die Referenzen (zum Teil?) ein anderes Format. Der Schlüssel lautet WF, die Abteilung ist mit einer römischen Zahl bezeichnet. Zum Beispiel:
+
+WF VII|190|05|
+---|---|---
+Abteilung 7|Gutachten 190 | im Jahr 2005
+
+Zudem gibt es einige wenige Gutachten mit der Abteilungsbezeichnung „PE6“. Die Bedeutung ist bislang unklar.
+
+### Kategorie
+
+Die meisten Gutachten sind mit **A** gekennzeichnet, ein kleiner Teil dagegen mit **AI**. Die Bedeutung ist bislang unklar.
