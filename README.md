@@ -31,6 +31,8 @@ WF&nbsp;XII|WD11|PE6|Europa
 
 ### Status
 
-Die meisten Gutachten tragen das Zeichen **A**.
+Die meisten Gutachten tragen das Zeichen **A**, vermutlich für **Ausarbeitung**.
 
-Ein kleiner Teil ist mit **AI** ausgezeichnet und wurde offenbar als „Infobrief“ veröffentlicht. Diese sind [zum Teil online auffindbar](https://t.co/GkRVkoeoCJ). Hinweise auf eine vollständige Liste sind willkommen!
+Ein kleiner Teil ist mit **AI** ausgezeichnet und wurde offenbar als **Infobrief** veröffentlicht. Diese sind [zum Teil online auffindbar](https://t.co/GkRVkoeoCJ). Hinweise auf eine vollständige Liste sind willkommen!
+
+Ein einziges Gutachten (PE6-112/14: „Lösung von einem Investor-Staat-Streitbeilegungsmechanismus im Rahmen des Abkommens über eine Transatlantische Handels- und Investitionspartnerschaft (Transatlantic Trade and Investment Partnership TTIP)“) wurde von mir nachträglich mit dem Status **AG** gekennzeichnet, da bekannt ist, dass es als „NfD“ („Nur für den Dienstgebrauch“) **geheimgehalten** wird.
