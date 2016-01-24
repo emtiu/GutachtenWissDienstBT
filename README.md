@@ -13,30 +13,24 @@ Jedem Dokument ist eine eindeutige Referenz zugeordnet. Sie setzt sich zusammen 
 WD8|063|08|
 ---|---|---
 Abteilung 8|Gutachten 63 | im Jahr 2008
-Dabei gibt es folgende Abteilungen ([Quelle: Wikipedia](https://de.wikipedia.org/wiki/Wissenschaftliche_Dienste_des_Deutschen_Bundestages#Gliederung)):
+Dabei gibt es folgende Abteilungen ([Quelle: Wikipedia](https://de.wikipedia.org/wiki/Wissenschaftliche_Dienste_des_Deutschen_Bundestages#Gliederung)) mit verschiedenen Schlüsseln im Laufe der Jahre:
 
-Abteilung|Fachgebiet
----:|---
-1|Geschichte, Zeitgeschichte und Politik
-2|Auswärtiges, Völkerrecht, wirtschaftliche Zusammenarbeit und Entwicklung, Verteidigung, Menschenrechte und Humanitäre Hilfe
-3|Verfassung und Verwaltung
-4|Haushalt und Finanzen
-5|Wirtschaft und Technologie, Ernährung, Landwirtschaft und Verbraucherschutz, Tourismus
-6|Arbeit und Soziales
-7|Zivil-, Straf- und Verfahrensrecht, Umweltschutzrecht, Verkehr, Bau und Stadtentwicklung
-8|Umwelt, Naturschutz, Reaktorsicherheit, Bildung und Forschung
-9|Gesundheit, Familie, Senioren, Frauen und Jugend
-10|Kultur, Medien und Sport
-11|Europa
-#### Besonderheiten
-Bis 2005 haben die Referenzen (zum Teil?) ein anderes Format. Der Schlüssel lautet WF, die Abteilung ist mit einer römischen Zahl bezeichnet. Zum Beispiel:
-
-WF VII|190|05|
----|---|---
-Abteilung 7|Gutachten 190 | im Jahr 2005
-
-Zudem gibt es einige wenige Gutachten mit der Abteilungsbezeichnung „PE6“. Die Bedeutung ist bislang unklar.
+bis 2005|seit 2006|seit 2013|Fachgebiet
+---|---|---|---
+WF&nbsp;I|WD1|WD1|Geschichte, Zeitgeschichte und Politik
+WF&nbsp;II|WD2|WD2|Auswärtiges, Völkerrecht, wirtschaftliche Zusammenarbeit und Entwicklung, Verteidigung, Menschenrechte und Humanitäre Hilfe
+WF&nbsp;III|WD3|WD3|Verfassung und Verwaltung
+WF&nbsp;IV|WD4|WD4|Haushalt und Finanzen
+WF&nbsp;V|WD5|WD5|Wirtschaft und Technologie, Ernährung, Landwirtschaft und Verbraucherschutz, Tourismus
+WF&nbsp;VI|WD6|WD6|Arbeit und Soziales
+WF&nbsp;VII|WD7|WD7|Zivil-, Straf- und Verfahrensrecht, Umweltschutzrecht, Verkehr, Bau und Stadtentwicklung
+WF&nbsp;VIII|WD8|WD8|Umwelt, Naturschutz, Reaktorsicherheit, Bildung und Forschung
+WF&nbsp;IX|WD9|WD9|Gesundheit, Familie, Senioren, Frauen und Jugend
+WF&nbsp;X|WD10|WD10|Kultur, Medien und Sport
+WF&nbsp;XII|WD11|PE6|Europa
 
 ### Kategorie
 
-Die meisten Gutachten sind mit **A** gekennzeichnet, ein kleiner Teil dagegen mit **AI**. Die Bedeutung ist bislang unklar.
+Die meisten Gutachten tragen das Zeichen **A**.
+
+Ein kleiner Teil ist mit **AI** aufgezeichnet und wurde offenbar als „Infobrief“ veröffentlicht. Diese sind [zum Teil online auffindbar](https://t.co/GkRVkoeoCJ).
