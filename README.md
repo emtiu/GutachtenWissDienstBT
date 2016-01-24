@@ -3,12 +3,20 @@ Maschinenlesbare Liste der Gutachten des Wissenschaftlichen Dienstes des Bundest
 ## Quelle
 Nach einer erfolgreich durchgefochtenen IFG-Anfrage und hat Abgeordnetenwatch eine „Übersicht vorhandener Ausarbeitungen der Wissenschaftlichen Dienste des Deutschen Bundestages“ aus dem „Zeitraum 18.10.2005 bis 25.06.2015“ [erhalten und veröffentlicht](https://www.abgeordnetenwatch.de/blog/2016-01-22/wir-veroffentlichen-die-liste-mit-allen-gutachten-des-wissenschaftlichen-dienstes). Geliefert wurden zwei Listen in Papierform:
 - Anlage 1 mit 208 Seiten: 3352 Gutachten von 18.10.2005 bis 22.10.2013
-- Anlage 2 mit 34 Seiten:503 Gutachten vom 23.10.2013 bis 25.06.2015
+- Anlage 2 mit 34 Seiten: 503 Gutachten vom 23.10.2013 bis 25.06.2015
 
 Die eingescannten Totholz-Informationen wurden innerhalb weniger Stunden von fleißigen Datenäffchen eingelesen und in Handarbeit durchgekämmt. Großer Dank gebührt [Stefan Wehrmeyer](https://twitter.com/stefanwehrmeyer) für technische Unterstützung. Trotzdem sind wahrscheinlich noch OCR-Fehler in den Daten versteckt. Pull Requests und Hinweise sind willkommen!
 ## Format
 ### Referenz
 Jedem Dokument ist eine eindeutige Referenz zugeordnet. Sie setzt sich zusammen aus der Abteilung des Wissenschaftlichen Dienstes, einer für das Kalenderjahr laufenden Nummer und einer zweistelligen Angabe des Kalenderjahrs.
+
+**Achtung:** Die Referenz in dieser Datenbank ist angelehnt, aber nicht identisch mit dem Aktenzeichen beim Bundestag. Um Gutachten an anderer Stelle zu suchen, etwa mit Suchmaschinen, muss gegebenenfalls an der Formatierung der Referenz geschraubt werden. Wenn sie als Aktenzeichen von offizieller Seite digitalisiert wurden, tragen sie oft Leerzeichen um einzelne Bestandteile. Konkret haben sich Leerzeichen um die Abteilungs-Nummer und den folgenden Bindestrich bewährt. So wird etwa aus der Referenz WD8-063/08:
+
+    WD 8 - 063/08
+Gelegentlich wird auch die Kennzahl „3000“ aus dem Aktenplan des Bundestags in das Aktenzeichen mit aufgenommen. Die Referenz lautet dann:
+
+    WD 8 - 3000 - 063/08
+
 #### Beispielreferenz: WD8-063/08
 WD8|063|08|
 ---|---|---
@@ -33,6 +41,16 @@ WF&nbsp;XII|WD11|PE6|Europa
 
 Die meisten Gutachten tragen das Zeichen **A**, vermutlich für **Ausarbeitung**.
 
-Ein kleiner Teil ist mit **AI** ausgezeichnet und wurde offenbar als **Infobrief** veröffentlicht. Diese sind [zum Teil online auffindbar](https://t.co/GkRVkoeoCJ). Hinweise auf eine vollständige Liste sind willkommen!
+Ein kleiner Teil ist mit **AI** ausgezeichnet und wurde offenbar als **Infobrief** veröffentlicht. (Diese sind [zum Teil online auffindbar](https://t.co/GkRVkoeoCJ) – Hinweise auf eine vollständige Liste sind willkommen!) Gelegentlich beziehen sich eigenständige Gutachten auf 
 
 Ein einziges Gutachten (PE6-112/14: „Lösung von einem Investor-Staat-Streitbeilegungsmechanismus im Rahmen des Abkommens über eine Transatlantische Handels- und Investitionspartnerschaft (Transatlantic Trade and Investment Partnership TTIP)“) wurde von mir nachträglich mit dem Status **AG** gekennzeichnet, da bekannt ist, dass es als „NfD“ („Nur für den Dienstgebrauch“) **geheimgehalten** wird.
+
+## Änderungen
+Folgende Änderungen wurden am Inhalt gegenüber der ursprünglich vom Bundestag gelieferten und eingescannten Liste vorgenommen:
+### Metadaten
+- Leerzeichen aus sämtlichen Referenz-Schlüsseln entfernt
+  - Ausnahme: Altes Referenz-Format bis 2005 (siehe oben) mit Leerzeichen um die römische Ziffer: „WF VIII 107/05“
+- Status des Gutachtens PE6-112/14 zu „AG“ geändert (siehe oben)
+
+### Titel
+- Abkürzungen der Vereinten Nationen als „VN“ geändert in „UN“
