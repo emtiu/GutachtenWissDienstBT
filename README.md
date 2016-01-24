@@ -15,7 +15,7 @@ WD8|063|08|
 Abteilung 8|Gutachten 63 | im Jahr 2008
 Dabei gibt es folgende Abteilungen ([Quelle: Wikipedia](https://de.wikipedia.org/wiki/Wissenschaftliche_Dienste_des_Deutschen_Bundestages#Gliederung)) mit verschiedenen Schlüsseln im Laufe der Jahre:
 
-bis 2005|seit 2006|seit 2013|Fachgebiet
+bis 2005|2006 –2013|seit 2013|Fachgebiet
 ---|---|---|---
 WF&nbsp;I|WD1|WD1|Geschichte, Zeitgeschichte und Politik
 WF&nbsp;II|WD2|WD2|Auswärtiges, Völkerrecht, wirtschaftliche Zusammenarbeit und Entwicklung, Verteidigung, Menschenrechte und Humanitäre Hilfe
