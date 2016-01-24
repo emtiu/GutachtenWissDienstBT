@@ -29,8 +29,8 @@ WF&nbsp;IX|WD9|WD9|Gesundheit, Familie, Senioren, Frauen und Jugend
 WF&nbsp;X|WD10|WD10|Kultur, Medien und Sport
 WF&nbsp;XII|WD11|PE6|Europa
 
-### Kategorie
+### Status
 
 Die meisten Gutachten tragen das Zeichen **A**.
 
-Ein kleiner Teil ist mit **AI** aufgezeichnet und wurde offenbar als „Infobrief“ veröffentlicht. Diese sind [zum Teil online auffindbar](https://t.co/GkRVkoeoCJ).
+Ein kleiner Teil ist mit **AI** ausgezeichnet und wurde offenbar als „Infobrief“ veröffentlicht. Diese sind [zum Teil online auffindbar](https://t.co/GkRVkoeoCJ). Hinweise auf eine vollständige Liste sind willkommen!
