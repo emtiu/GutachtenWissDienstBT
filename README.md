@@ -25,7 +25,7 @@ Abteilung 8|Gutachten 63| im Jahr 2008
 
 **Achtung:** Die Gutachten können auch mit „langen Aktenzeichen“ bezeichnet werden, die eine zusätzliche Referenz aus dem Aktenplan des Bundestages enthalten. So wird beispielsweise aus dem „kurzen Aktenzeichen“ **WD&nbsp;3&nbsp;-&nbsp;124/11** das „lange Aktenzeichen“ **WD&nbsp;3&nbsp;-&nbsp;3000&nbsp;-&nbsp;124/11**.
 
-Offenbar ist der Zusatz für „Infobriefe“ (siehe unten) nicht 3000, sondern 3010, denn es ist ein Bezug auf **WD&nbsp;2&nbsp;-&nbsp;118/08** als **WD&nbsp;2&nbsp;-&nbsp;3010&nbsp;-&nbsp;118/08** bekannt. Die genauen Verhältnisse um die „langen Aktenzeichen“ sind noch nicht bekannt.
+Offenbar ist der Zusatz für „Infobriefe“ (siehe unten) nicht 3000, sondern 3010, denn es ist ein Bezug auf **WD&nbsp;2&nbsp;-&nbsp;118/08** als **WD&nbsp;2&nbsp;-&nbsp;3010&nbsp;-&nbsp;118/08** bekannt. Die genauen Verhältnisse um die „langen Aktenzeichen“ sind noch nicht bekannt. Lange Aktenzeichen werden in diesem Datensatz nicht verwendet.
 
 ### Abteilung
 
@@ -123,4 +123,4 @@ Folgende Änderungen wurden am Inhalt gegenüber der ursprünglich vom Bundestag
 
 ### Titel
 - Diverse offensichtliche Tippfehler, fehlende Klammern oder Anführungszeichen behoben
-- Referenzen auf andere Gutachten in form von „langen Aktenzeichen“ zu „kurzen Aktenzeichen“ korrigiert (siehe oben)
+- Referenzen auf andere Gutachten in Form von „langen Aktenzeichen“ zu „kurzen Aktenzeichen“ korrigiert (siehe oben)
