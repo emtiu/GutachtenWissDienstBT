@@ -8,7 +8,7 @@ Nach einer erfolgreich durchgefochtenen IFG-Anfrage und hat Abgeordnetenwatch ei
 Die eingescannten Totholz-Informationen wurden innerhalb weniger Stunden von fleißigen Datenäffchen eingelesen und in Handarbeit durchgekämmt. Großer Dank gebührt [Stefan Wehrmeyer](https://twitter.com/stefanwehrmeyer) für technische Unterstützung. Trotzdem sind wahrscheinlich noch OCR-Fehler in den Daten versteckt. Pull Requests und Hinweise sind willkommen!
 ## Format
 ### ID
-Die ID ist das Schlüsselfeld für diesen Datensatz. Sie wird indirekt aus dem Aktenzeichen eines Gutachtens gebildet, hat aber keine offizielle Bedeutung. Der Aufbau, am Beispiel des Gutachtens mit der ID 08-2008-063, ist wie folgt:
+Die ID ist das Schlüsselfeld für diesen Datensatz. Sie wird indirekt aus dem Aktenzeichen eines Gutachtens gebildet, hat aber keine offizielle Bedeutung. Der Aufbau, am Beispiel des Gutachtens mit der ID&nbsp;08-2008-063, ist wie folgt:
 
 Abteilung*|Jahr|laufende Nummer pro Abteilung und Jahr (aus Aktenzeichen)
 ---:|---:|---
@@ -17,34 +17,94 @@ Abteilung*|Jahr|laufende Nummer pro Abteilung und Jahr (aus Aktenzeichen)
 \* Für eine Auflistung der Abteilungen siehe unten
 
 ### Aktenzeichen
-Jedem Dokument ist eine eindeutige Referenz zugeordnet. Sie setzt sich zusammen aus der Abteilung des Wissenschaftlichen Dienstes, einer für das Kalenderjahr laufenden Nummer und einer zweistelligen Angabe des Kalenderjahrs.
+Die Aktenzeichen setzen sich zusammen aus der (historischen, siehe Tabelle) Bezeichnung der verantwortlichen Abteilung des Wissenschaftlichen Dienstes, einer laufenden Nummer für jedes Jahr und jede Abteilung und einer zweistelligen Jahresangabe. Am Beispiel des Eintrags mit der ID&nbsp;08-2008-063 lautet das Aktenzeichen **WD&nbsp;8&nbsp;-&nbsp;063/08**:
 
-**Achtung:** Die Referenz in dieser Datenbank ist angelehnt, aber nicht identisch mit dem Aktenzeichen beim Bundestag. Um Gutachten an anderer Stelle zu suchen, etwa mit Suchmaschinen, muss gegebenenfalls an der Formatierung der Referenz geschraubt werden. Wenn sie als Aktenzeichen von offizieller Seite digitalisiert wurden, tragen sie oft Leerzeichen um einzelne Bestandteile. Konkret haben sich Leerzeichen um die Abteilungs-Nummer und den folgenden Bindestrich bewährt. So wird etwa aus der Referenz WD8-063/08:
+WD 8|063|08|
+---|:---:|---
+Abteilung 8|Gutachten 63| im Jahr 2008
 
-    WD 8 - 063/08
-Gelegentlich wird auch die Kennzahl „3000“ aus dem Aktenplan des Bundestags in das Aktenzeichen mit aufgenommen. Die Referenz lautet dann:
+**Achtung:** Die Gutachten können auch mit „langen Aktenzeichen“ bezeichnet werden, die eine zusätzliche Referenz aus dem Aktenplan des Bundestages enthalten. So wird beispielsweise aus dem „kurzen Aktenzeichen“ **WD&nbsp;3&nbsp;-&nbsp;124/11** das „lange Aktenzeichen“ **WD&nbsp;3&nbsp;-&nbsp;3000&nbsp;-&nbsp;124/11**.
 
-    WD 8 - 3000 - 063/08
+Offenbar ist der Zusatz für „Infobriefe“ (siehe unten) nicht 3000, sondern 3010, denn es ist ein Bezug auf **WD&nbsp;2&nbsp;-&nbsp;118/08** als **WD&nbsp;2&nbsp;-&nbsp;3010&nbsp;-&nbsp;118/08** bekannt. Die genauen Verhältnisse um die „langen Aktenzeichen“ sind noch nicht bekannt.
 
-#### Beispielreferenz: WD8-063/08
-WD8|063|08|
----|---|---
-Abteilung 8|Gutachten 63 | im Jahr 2008
-Dabei gibt es folgende Abteilungen ([Quelle: Wikipedia](https://de.wikipedia.org/wiki/Wissenschaftliche_Dienste_des_Deutschen_Bundestages#Gliederung)) mit verschiedenen Schlüsseln im Laufe der Jahre:
+Die Bezeichnungen der Abteilungen in den Aktenzeichen richten sich nach der historischen Struktur des Wissenschaftlichen Dienstes ([Quelle: Wikipedia](https://de.wikipedia.org/wiki/Wissenschaftliche_Dienste_des_Deutschen_Bundestages#Gliederung) und [Bundestags-Dokument](StrukturBTVerw.pdf)):
 
-ID|bis 2005|2006 –2013|seit 2013|Sachgebiet
----:|---|---|---|---
-1|WF&nbsp;I|WD&nbsp;1|WD&nbsp;1|Geschichte, Zeitgeschichte und Politik
-2|WF&nbsp;II|WD&nbsp;2|WD&nbsp;2|Auswärtiges, Völkerrecht, wirtschaftliche Zusammenarbeit und Entwicklung, Verteidigung, Menschenrechte und Humanitäre Hilfe
-3|WF&nbsp;III|WD&nbsp;3|WD&nbsp;3|Verfassung und Verwaltung
-4|WF&nbsp;IV|WD&nbsp;4|WD&nbsp;4|Haushalt und Finanzen
-5|WF&nbsp;V|WD&nbsp;5|WD&nbsp;5|Wirtschaft und Technologie, Ernährung, Landwirtschaft und Verbraucherschutz, Tourismus
-6|WF&nbsp;VI|WD&nbsp;6|WD&nbsp;6|Arbeit und Soziales
-7|WF&nbsp;VII|WD&nbsp;7|WD&nbsp;7|Zivil-, Straf- und Verfahrensrecht, Umweltschutzrecht, Verkehr, Bau und Stadtentwicklung
-8|WF&nbsp;VIII|WD&nbsp;8|WD&nbsp;8|Umwelt, Naturschutz, Reaktorsicherheit, Bildung und Forschung
-9|WF&nbsp;IX|WD&nbsp;9|WD&nbsp;9|Gesundheit, Familie, Senioren, Frauen und Jugend
-10|WF&nbsp;X|WD&nbsp;10|WD&nbsp;10|Kultur, Medien und Sport
-11|WF&nbsp;XII|WD&nbsp;11|PE&nbsp;6|Europa
+<table><thead>
+<tr>
+<th align="right">ID</th>
+<th>bis 2005</th>
+<th>2006 –2013</th>
+<th>seit 2013</th>
+<th>Sachgebiet</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>01</td>
+<td align="center" colspan="3">WD&nbsp;1</td>
+<td>Geschichte, Zeitgeschichte und Politik</td>
+</tr>
+<tr>
+<td>02</td>
+<td>WF&nbsp;II</td>
+<td align="center" colspan="2">WD&nbsp;2</td>
+<td>Auswärtiges, Völkerrecht, wirtschaftliche Zusammenarbeit und Entwicklung, Verteidigung, Menschenrechte und Humanitäre Hilfe</td>
+</tr>
+<tr>
+<td>03</td>
+<td>WF&nbsp;III</td>
+<td align="center" colspan="2">WD&nbsp;3</td>
+<td>Verfassung und Verwaltung</td>
+</tr>
+<tr>
+<td>04</td>
+<td>WF&nbsp;IV</td>
+<td align="center" colspan="2">WD&nbsp;4</td>
+<td>Haushalt und Finanzen</td>
+</tr>
+<tr>
+<td>05</td>
+<td>WF&nbsp;V</td>
+<td align="center" colspan="2">WD&nbsp;5</td>
+<td>Wirtschaft und Technologie, Ernährung, Landwirtschaft und Verbraucherschutz, Tourismus</td>
+</tr>
+<tr>
+<td>06</td>
+<td>WF&nbsp;VI</td>
+<td align="center" colspan="2">WD&nbsp;6</td>
+<td>Arbeit und Soziales</td>
+</tr>
+<tr>
+<td>07</td>
+<td>WF&nbsp;VII</td>
+<td align="center" colspan="2">WD&nbsp;7</td>
+<td>Zivil-, Straf- und Verfahrensrecht, Umweltschutzrecht, Verkehr, Bau und Stadtentwicklung</td>
+</tr>
+<tr>
+<td>08</td>
+<td>WF&nbsp;VIII</td>
+<td align="center" colspan="2">WD&nbsp;8</td>
+<td>Umwelt, Naturschutz, Reaktorsicherheit, Bildung und Forschung</td>
+</tr>
+<tr>
+<td>09</td>
+<td>WF&nbsp;IX</td>
+<td align="center" colspan="2">WD&nbsp;9</td>
+<td>Gesundheit, Familie, Senioren, Frauen und Jugend</td>
+</tr>
+<tr>
+<td>10</td>
+<td>WF&nbsp;X</td>
+<td align="center" colspan="2">WD&nbsp;10</td>
+<td>Kultur, Medien und Sport</td>
+</tr>
+<tr>
+<td>11</td>
+<td>WF&nbsp;XII</td>
+<td>WD&nbsp;11</td>
+<td>PE&nbsp;6</td>
+<td>Europa</td>
+</tr>
+</tbody></table>
 
 ### Status
 
@@ -61,3 +121,4 @@ Folgende Änderungen wurden am Inhalt gegenüber der ursprünglich vom Bundestag
 
 ### Titel
 - Diverse offensichtliche Tippfehler, fehlende Klammern oder Anführungszeichen behoben
+- Referenzen auf andere Gutachten in form von „langen Aktenzeichen“ zu „kurzen Aktenzeichen“ korrigiert (siehe oben)
