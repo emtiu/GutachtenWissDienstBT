@@ -7,7 +7,16 @@ Nach einer erfolgreich durchgefochtenen IFG-Anfrage und hat Abgeordnetenwatch ei
 
 Die eingescannten Totholz-Informationen wurden innerhalb weniger Stunden von fleißigen Datenäffchen eingelesen und in Handarbeit durchgekämmt. Großer Dank gebührt [Stefan Wehrmeyer](https://twitter.com/stefanwehrmeyer) für technische Unterstützung. Trotzdem sind wahrscheinlich noch OCR-Fehler in den Daten versteckt. Pull Requests und Hinweise sind willkommen!
 ## Format
-### Referenz
+### ID
+Die ID ist das Schlüsselfeld für diesen Datensatz. Sie wird indirekt aus dem Aktenzeichen eines Gutachtens gebildet, hat aber keine offizielle Bedeutung. Der Aufbau, am Beispiel des Gutachtens mit der ID 08-2008-063, ist wie folgt:
+
+Abteilung*|Jahr|laufende Nummer pro Abteilung und Jahr (aus Aktenzeichen)
+---:|---:|---
+08|2008|063
+
+\* Für eine Auflistung der Abteilungen siehe unten
+
+### Aktenzeichen
 Jedem Dokument ist eine eindeutige Referenz zugeordnet. Sie setzt sich zusammen aus der Abteilung des Wissenschaftlichen Dienstes, einer für das Kalenderjahr laufenden Nummer und einer zweistelligen Angabe des Kalenderjahrs.
 
 **Achtung:** Die Referenz in dieser Datenbank ist angelehnt, aber nicht identisch mit dem Aktenzeichen beim Bundestag. Um Gutachten an anderer Stelle zu suchen, etwa mit Suchmaschinen, muss gegebenenfalls an der Formatierung der Referenz geschraubt werden. Wenn sie als Aktenzeichen von offizieller Seite digitalisiert wurden, tragen sie oft Leerzeichen um einzelne Bestandteile. Konkret haben sich Leerzeichen um die Abteilungs-Nummer und den folgenden Bindestrich bewährt. So wird etwa aus der Referenz WD8-063/08:
@@ -23,19 +32,19 @@ WD8|063|08|
 Abteilung 8|Gutachten 63 | im Jahr 2008
 Dabei gibt es folgende Abteilungen ([Quelle: Wikipedia](https://de.wikipedia.org/wiki/Wissenschaftliche_Dienste_des_Deutschen_Bundestages#Gliederung)) mit verschiedenen Schlüsseln im Laufe der Jahre:
 
-bis 2005|2006 –2013|seit 2013|Fachgebiet
----|---|---|---
-WF&nbsp;I|WD1|WD1|Geschichte, Zeitgeschichte und Politik
-WF&nbsp;II|WD2|WD2|Auswärtiges, Völkerrecht, wirtschaftliche Zusammenarbeit und Entwicklung, Verteidigung, Menschenrechte und Humanitäre Hilfe
-WF&nbsp;III|WD3|WD3|Verfassung und Verwaltung
-WF&nbsp;IV|WD4|WD4|Haushalt und Finanzen
-WF&nbsp;V|WD5|WD5|Wirtschaft und Technologie, Ernährung, Landwirtschaft und Verbraucherschutz, Tourismus
-WF&nbsp;VI|WD6|WD6|Arbeit und Soziales
-WF&nbsp;VII|WD7|WD7|Zivil-, Straf- und Verfahrensrecht, Umweltschutzrecht, Verkehr, Bau und Stadtentwicklung
-WF&nbsp;VIII|WD8|WD8|Umwelt, Naturschutz, Reaktorsicherheit, Bildung und Forschung
-WF&nbsp;IX|WD9|WD9|Gesundheit, Familie, Senioren, Frauen und Jugend
-WF&nbsp;X|WD10|WD10|Kultur, Medien und Sport
-WF&nbsp;XII|WD11|PE6|Europa
+ID|bis 2005|2006 –2013|seit 2013|Sachgebiet
+---:|---|---|---|---
+1|WF&nbsp;I|WD&nbsp;1|WD&nbsp;1|Geschichte, Zeitgeschichte und Politik
+2|WF&nbsp;II|WD&nbsp;2|WD&nbsp;2|Auswärtiges, Völkerrecht, wirtschaftliche Zusammenarbeit und Entwicklung, Verteidigung, Menschenrechte und Humanitäre Hilfe
+3|WF&nbsp;III|WD&nbsp;3|WD&nbsp;3|Verfassung und Verwaltung
+4|WF&nbsp;IV|WD&nbsp;4|WD&nbsp;4|Haushalt und Finanzen
+5|WF&nbsp;V|WD&nbsp;5|WD&nbsp;5|Wirtschaft und Technologie, Ernährung, Landwirtschaft und Verbraucherschutz, Tourismus
+6|WF&nbsp;VI|WD&nbsp;6|WD&nbsp;6|Arbeit und Soziales
+7|WF&nbsp;VII|WD&nbsp;7|WD&nbsp;7|Zivil-, Straf- und Verfahrensrecht, Umweltschutzrecht, Verkehr, Bau und Stadtentwicklung
+8|WF&nbsp;VIII|WD&nbsp;8|WD&nbsp;8|Umwelt, Naturschutz, Reaktorsicherheit, Bildung und Forschung
+9|WF&nbsp;IX|WD&nbsp;9|WD&nbsp;9|Gesundheit, Familie, Senioren, Frauen und Jugend
+10|WF&nbsp;X|WD&nbsp;10|WD&nbsp;10|Kultur, Medien und Sport
+11|WF&nbsp;XII|WD&nbsp;11|PE&nbsp;6|Europa
 
 ### Status
 
@@ -48,9 +57,7 @@ Ein einziges Gutachten (PE6-112/14: „Lösung von einem Investor-Staat-Streitbe
 ## Änderungen
 Folgende Änderungen wurden am Inhalt gegenüber der ursprünglich vom Bundestag gelieferten und eingescannten Liste vorgenommen:
 ### Metadaten
-- Leerzeichen aus sämtlichen Referenz-Schlüsseln entfernt
-  - Ausnahme: Altes Referenz-Format bis 2005 (siehe oben) mit Leerzeichen um die römische Ziffer: „WF VIII 107/05“
 - Status des Gutachtens PE6-112/14 zu „AG“ geändert (siehe oben)
 
 ### Titel
-- Abkürzungen der Vereinten Nationen als „VN“ geändert in „UN“
+- Diverse offensichtliche Tippfehler, fehlende Klammern oder Anführungszeichen behoben
