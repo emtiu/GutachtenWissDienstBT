@@ -27,6 +27,8 @@ Abteilung 8|Gutachten 63| im Jahr 2008
 
 Offenbar ist der Zusatz für „Infobriefe“ (siehe unten) nicht 3000, sondern 3010, denn es ist ein Bezug auf **WD&nbsp;2&nbsp;-&nbsp;118/08** als **WD&nbsp;2&nbsp;-&nbsp;3010&nbsp;-&nbsp;118/08** bekannt. Die genauen Verhältnisse um die „langen Aktenzeichen“ sind noch nicht bekannt.
 
+### Abteilung
+
 Die Bezeichnungen der Abteilungen in den Aktenzeichen richten sich nach der historischen Struktur des Wissenschaftlichen Dienstes ([Quelle: Wikipedia](https://de.wikipedia.org/wiki/Wissenschaftliche_Dienste_des_Deutschen_Bundestages#Gliederung) und [Bundestags-Dokument](StrukturBTVerw.pdf)):
 
 <table><thead>
@@ -110,7 +112,7 @@ Die Bezeichnungen der Abteilungen in den Aktenzeichen richten sich nach der hist
 
 Die meisten Gutachten tragen das Zeichen **A**, vermutlich für **Ausarbeitung**.
 
-Ein kleiner Teil ist mit **AI** ausgezeichnet und wurde offenbar als **Infobrief** veröffentlicht. (Diese sind [zum Teil online auffindbar](https://t.co/GkRVkoeoCJ) – Hinweise auf eine vollständige Liste sind willkommen!) Gelegentlich beziehen sich eigenständige Gutachten auf 
+Ein kleiner Teil ist mit **AI** ausgezeichnet und wurde als **Infobrief** veröffentlicht. Diese sind (vollständig?) [online auffindbar](https://www.bundestag.de/analysen).
 
 Ein einziges Gutachten (PE6-112/14: „Lösung von einem Investor-Staat-Streitbeilegungsmechanismus im Rahmen des Abkommens über eine Transatlantische Handels- und Investitionspartnerschaft (Transatlantic Trade and Investment Partnership TTIP)“) wurde von mir nachträglich mit dem Status **AG** gekennzeichnet, da bekannt ist, dass es als „NfD“ („Nur für den Dienstgebrauch“) **geheimgehalten** wird.
 
