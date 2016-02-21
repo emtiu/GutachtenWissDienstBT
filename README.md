@@ -1,5 +1,9 @@
 # Gutachtenliste: Wissenschaftlicher Dienst des Bundestags 2005–2015
 Maschinenlesbare Liste der Gutachten des Wissenschaftlichen Dienstes des Bundestags von 2005 bis 2015
+## Neu ab Februar 2016!
+Der Bundestag hat nach den zahlreichen Anfragen, die aus dieser Datenbank hervorgegangen sind, mit der Veröffentlichung von Ausarbeitungen [auf einer eigenen Webseite](https://www.bundestag.de/ausarbeitungen) begonnen.
+
+Ob die Ausarbeitungen vollständig oder nur teilweise, und welchem Schema folgend, dort veröffentlicht werden, ist momentan unklar. Informationen darüber, welche Ausarbeitungen dort veröffentlicht werden oder nicht, sind willkommen.
 ## Quelle
 Nach einer erfolgreich durchgefochtenen IFG-Anfrage und hat Abgeordnetenwatch eine „Übersicht vorhandener Ausarbeitungen der Wissenschaftlichen Dienste des Deutschen Bundestages“ aus dem „Zeitraum 18.10.2005 bis 25.06.2015“ [erhalten und veröffentlicht](https://www.abgeordnetenwatch.de/blog/2016-01-22/wir-veroffentlichen-die-liste-mit-allen-gutachten-des-wissenschaftlichen-dienstes). Geliefert wurden zwei Listen in Papierform:
 - Anlage 1 mit 208 Seiten: 3352 Gutachten von 18.10.2005 bis 22.10.2013
@@ -110,9 +114,9 @@ Die Bezeichnungen der Abteilungen in den Aktenzeichen richten sich nach der hist
 
 ### Status
 
-Die meisten Gutachten tragen das Zeichen **A**, vermutlich für **Ausarbeitung**.
+Die meisten Gutachten tragen das Zeichen **A**, für **Analyse**. Neben „Analysen“ gibt es auch „Fachinformationen“ und „gutachterliche Stellungnahmen“. Ob diese hier ebenfalls enthalten sind, oder ob es sich um separate Dokumente handelt, ist aktuell noch unklar.
 
-Ein kleiner Teil ist mit **AI** ausgezeichnet und wurde als **Infobrief** veröffentlicht. Diese sind (vollständig?) [online auffindbar](https://www.bundestag.de/analysen).
+Ein kleiner Teil ist mit **AI** ausgezeichnet und wurde als **Infobrief** veröffentlicht. Diese waren schon vor dem Februar 2016 (vollständig?) [online auffindbar](https://www.bundestag.de/analysen).
 
 Ein einziges Gutachten (PE6-112/14: „Lösung von einem Investor-Staat-Streitbeilegungsmechanismus im Rahmen des Abkommens über eine Transatlantische Handels- und Investitionspartnerschaft (Transatlantic Trade and Investment Partnership TTIP)“) wurde von mir nachträglich mit dem Status **AG** gekennzeichnet, da bekannt ist, dass es als „NfD“ („Nur für den Dienstgebrauch“) **geheimgehalten** wird.
 
